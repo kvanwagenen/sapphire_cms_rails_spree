@@ -16,6 +16,6 @@ end
 
 desc 'Generates a dummy app for testing'
 task :test_app do
-  ENV['LIB_NAME'] = 'sapphire_cms_spree'
+  ENV['LIB_NAME'] = 'sapphire_cms_rails_spree'
   Rake::Task['extension:test_app'].invoke
 end
