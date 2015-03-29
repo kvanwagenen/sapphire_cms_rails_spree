@@ -12,5 +12,4 @@ nbproject
 pkg
 *.swp
 spec/dummy
-
-app/assets/javascripts/spree/frontend/sapphire-cms.spree.js
+app/assets/javascripts/sapphire_cms/sapphire-cms.spree.js
