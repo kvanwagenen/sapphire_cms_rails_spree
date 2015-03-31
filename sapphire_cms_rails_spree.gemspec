@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_core', '~> 3.0.0'
   s.add_dependency 'sapphire_cms_rails', '~> 1.0.0'
   s.add_dependency 'rails-assets-underscore'
+  s.add_dependency 'rails-assets-angular-loading-bar'
 
   s.add_development_dependency 'capybara', '~> 2.4'
   s.add_development_dependency 'coffee-rails'

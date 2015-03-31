@@ -1,5 +1,6 @@
 require 'rails'
 require 'rails-assets-underscore'
+require 'rails-assets-angular-loading-bar'
 require 'spree_core'
 require 'sapphire_cms_spree/engine'
 require 'sapphire_cms_rails'
