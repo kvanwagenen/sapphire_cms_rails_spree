@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source "https://rails-assets.org"
 
 gem 'spree', github: 'spree/spree', branch: '3-0-stable'
 # Provides basic authentication functionality for testing parts of your engine
