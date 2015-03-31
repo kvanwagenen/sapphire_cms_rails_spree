@@ -15,6 +15,10 @@ module SapphireCmsSpree
       end
     end
 
+    initializer 'sapphire_cms_rails_spree.allow_anonymous_get' do
+      Spree::Api::Config[:requires_authentication] = false
+    end
+
     config.to_prepare &method(:activate).to_proc
   end
 end
